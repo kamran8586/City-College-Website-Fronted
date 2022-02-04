@@ -41,20 +41,7 @@ body {
 }
 
 .Homebg {
-    background-image: linear-gradient(120deg, var(--primary) 50%, transparent 50%), url('../images/homeBg.jpg');
-}
-
-.Homebg::before {
-    content         : '';
-    display         : block;
-    position        : absolute;
-    top             : 0;
-    right           : 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    transform       : skewX(150deg);
-    width           : 54%;
-    height          : 100vh;
-    overflow-x      : hidden;
+    background-image: linear-gradient(120deg, var(--primary) 50%, transparent 50%), url('../images/homeBg.png');
 }
 
 .heading::selection {
