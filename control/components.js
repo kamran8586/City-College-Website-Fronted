@@ -41,6 +41,7 @@ let announcementPage = `
 <div
     class="sideBar h-screen lg:w-1/3 bg-gray-200 fixed right-0 overscroll-y-auto overflow-x-hidden rounded-2xl">
 </div>
+This is text.
 <main class="h-screen overflow-y-auto">
 
 </main>
@@ -49,24 +50,24 @@ let announcementPage = `
 
 
 let homePage = ` <div class="Homebg h-screen bg-fixed relative">
-<div class="textContent w-1/2 flex flex-col items-center justify-center h-[60vh]">
-    <h2 class="text-4xl text-white heading font-semibold">City College Warburton</h2>
-    <h3 class="text-2xl text-white heading">(We Generate Knowledge)</h3>
-    <p class="text-center text-white w-7/12 homeAboutText mt-12">Our College is City College Warburton. We
-        provide
-        top class
-        study into
-        students.
-        Our aim is
-        to make the Warburton students more knowlege able.</p>
-</div>
-<div class=" flex  space-x-6 -mt-20 justify-center w-1/2">
-    <button class="btn block lg:py-3 py-2 w-full px-4 rounded-lg transition-all duration-100 lg:w-auto">Take
-        admission</button>
-    <button
-        class="btn block lg:py-3 py-2 w-full px-4 rounded-lg transition-all duration-100 lg:w-auto ">Check
-        Result</button>
-</div>
-</div>`;
+            <div class="textContent w-1/2 flex flex-col items-center justify-center h-[60vh]">
+                <h2 class="text-4xl text-white heading font-semibold">City College Warburton</h2>
+                <h3 class="text-2xl text-white heading">(We Generate Knowledge)</h3>
+                <p class="text-center text-white w-7/12 homeAboutText mt-12">Our College is City College Warburton. We
+                    provide
+                    top class
+                    study into
+                    students.
+                    Our aim is
+                    to make the Warburton students more knowlege able.</p>
+            </div>
+            <div class=" flex  space-x-6 -mt-20 justify-center w-1/2">
+                <button class="btn block lg:py-3 py-2 w-full px-4 rounded-lg transition-all duration-100 lg:w-auto">Take
+                    admission</button>
+                <button
+                    class="btn block lg:py-3 py-2 w-full px-4 rounded-lg transition-all duration-100 lg:w-auto ">Check
+                    Result</button>
+            </div>
+        </div>`;
 let aboutPage = `<div>About Screen</div>`;
 let servicePage = `<div>Service Screen</div>`
