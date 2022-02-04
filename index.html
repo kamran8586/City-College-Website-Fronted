@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/tailwindStyle.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>City College</title>
+</head>
+
+<body>
+    <nav class="navbar lg:flex justify-between sticky top-0 lg:h-auto h-28 cursor-default z-10">
+        <a href="#" class="brandLogo mx-4 navbar-brand block overflow-hidden w-20 h-24">
+            <img class="rounded-full w-20 h-24 block py-2" src="images/logo.jpeg" alt="City College">
+        </a>
+        <a href="#" class="openButton text-4xl absolute top-8 right-5 transition-all duration-100">&#9776;</a>
+        <div class=" navbar-items-responsive lg:flex lg:justify-between lg:w-[80%] lg:static top-3 navbar transition-all
+            duration-300 overflow-hidden w-0 lg:bg-inherit lg:h-auto h-screen z-10 relative lg:space-y-0 space-y-11">
+            <div
+                class="navigation lg:flex lg:space-x-7 lg:space-y-0 mx-2 space-y-2 flex flex-col lg:flex-row lg:items-center">
+                <a class=" nav-item block text-white text-xl font-light   py-2 rounded-lg px-3  transition-all duration-300 text-center mx-2 active home"
+                    href="#">Home</a>
+                <a class=" nav-item block text-white text-xl font-light py-2 rounded-lg px-3  transition-all duration-300 text-center mx-2 announcement"
+                    href="#">Announcement</a>
+                <a class=" nav-item block text-white text-xl font-light py-2 rounded-lg px-3  transition-all duration-300 text-center mx-2"
+                    href="#">About</a>
+                <a class=" nav-item block text-white text-xl font-light py-2 rounded-lg px-3  transition-all duration-300 text-center mx-2"
+                    href="#">Services</a>
+
+            </div>
+            <div
+                class="loginData lg:flex lg:space-x-6 lg:flex-row lg:items-center mx-4 text-xl space-y-3 mt-3 lg:mt-0 lg:space-y-0">
+                <button
+                    class="btn block lg:py-3 py-2 w-full px-4 rounded-lg transition-all duration-100 lg:w-auto">Login</button>
+                <button
+                    class="btn block lg:py-3 py-2 w-full px-4 rounded-lg transition-all duration-100 lg:w-auto ">Sign
+                    up</button>
+            </div>
+        </div>
+
+    </nav>
+    <div class="allContent">
+        <div class="Homebg h-screen bg-fixed relative">
+            <div class="textContent w-1/2 flex flex-col items-center justify-center h-[60vh]">
+                <h2 class="text-4xl text-white heading font-semibold">City College Warburton</h2>
+                <h3 class="text-2xl text-white heading">(We Generate Knowledge)</h3>
+                <p class="text-center text-white w-7/12 homeAboutText mt-12">Our College is City College Warburton. We
+                    provide
+                    top class
+                    study into
+                    students.
+                    Our aim is
+                    to make the Warburton students more knowlege able.</p>
+            </div>
+            <div class=" flex  space-x-6 -mt-20 justify-center w-1/2">
+                <button class="btn block lg:py-3 py-2 w-full px-4 rounded-lg transition-all duration-100 lg:w-auto">Take
+                    admission</button>
+                <button
+                    class="btn block lg:py-3 py-2 w-full px-4 rounded-lg transition-all duration-100 lg:w-auto ">Check
+                    Result</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="control/components.js"></script>
+<script src="control/app.js"></script>
+
+</html>
