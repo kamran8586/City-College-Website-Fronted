@@ -468,6 +468,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -495,6 +499,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .top-3 {
   top: 0.75rem;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .z-10 {
@@ -615,12 +623,33 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: hidden;
 }
 
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overscroll-y-auto {
+  overscroll-behavior-y: auto;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-fixed {
@@ -711,6 +740,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-1\/3 {
+    width: 33.333333%;
   }
 
   .lg\:flex-row {

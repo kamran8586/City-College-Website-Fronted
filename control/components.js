@@ -41,7 +41,7 @@ let announcementPage = `
 <div
     class="sideBar h-screen lg:w-1/3 bg-gray-200 fixed right-0 overscroll-y-auto overflow-x-hidden rounded-2xl">
 </div>
-This is text.
+<i class="fas fa-plus fa-lg"></i>
 <main class="h-screen overflow-y-auto">
 
 </main>
