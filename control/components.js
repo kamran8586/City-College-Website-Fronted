@@ -37,7 +37,7 @@ let navbarheader = `
 
 
 let announcementPage = `
- <div class="announcementsPageDesign">
+ <div class="announcementsPageDesign h-[70vh]">
             <div
                 class="sideBar h-screen lg:w-1/3 bg-gray-200 fixed right-0 overflow-y-auto overflow-x-hidden rounded-2xl mt-2">
                 <div
@@ -52,8 +52,12 @@ let announcementPage = `
                 </div>
                 <hr>
             </div>
-            <a href="#" class="createNewAnnouncement"> <i class="fas fa-plus fa-4x text-primary"></i></a>
-            <main class="h-screen overflow-y-auto lg:w-2/3 p-3">
+            <a href="#"
+                class="createNewAnnouncement relative top-2 left-2 inline-flex items-center space-x-4 bg-primary hover:bg-primary transition-all duration-100 rounded-l-2xl rounded-r-md"><i
+                    class="fas fa-plus fa-4x text-accent"></i>
+                <div class="text-2xl text-accent px-3">Create Announcement</div>
+            </a>
+            <main class="h-full overflow-y-scroll lg:w-2/3 p-3 mt-20 no-scrollbar">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque consectetur ad, sed porro, nesciunt
                 rerum animi dolor fugit laborum placeat magnam repellat ullam labore dolorum tempore voluptatem quo
                 harum corrupti at minima. Aliquid magni mollitia cupiditate consectetur, quis praesentium doloremque

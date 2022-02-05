@@ -1,8 +1,9 @@
 :root {
-    --primary     : #172774;
-    --secondary   : rgba(31, 31, 34, 0.9);
-    --accent      : #ffc107;
-    --accent-hover: #e0aa05;
+    --primary      : #172774;
+    --secondary    : rgba(31, 31, 34, 0.9);
+    --accent       : #ffc107;
+    --accent-hover : #e0aa05;
+    --primary-hover: #132066;
 }
 
 body {
@@ -18,12 +19,20 @@ body {
     background-color: var(--accent-hover);
 }
 
+.text-accent {
+    color: var(--accent);
+}
+
 .navbar {
     background-color: var(--primary);
 }
 
 .text-primary {
     color: var(--primary);
+}
+
+.bg-primary {
+    background-color: var(--primary);
 }
 
 .nav-item:hover {
@@ -33,6 +42,10 @@ body {
 
 .hover\:text-primary:hover {
     color: var(--primary);
+}
+
+.hover\:bg-primary:hover {
+    background: var(--primary-hover);
 }
 
 .active {
@@ -63,4 +76,17 @@ body {
         /* background-color: rgb(0, 0, 0); */
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width   : none;
+    /* Firefox */
 }
