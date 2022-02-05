@@ -49,7 +49,7 @@ let announcementPage = `
 `;
 
 
-let homePage = ` <div class="Homebg h-screen bg-fixed relative">
+let homePage = `  <div class="Homebg h-screen bg-fixed relative">
             <div class="textContent w-1/2 flex flex-col items-center justify-center h-[60vh]">
                 <h2 class="text-4xl text-white heading font-semibold">City College Warburton</h2>
                 <h3 class="text-2xl text-white heading">(We Generate Knowledge)</h3>
