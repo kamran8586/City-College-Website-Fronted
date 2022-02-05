@@ -14,15 +14,12 @@ body {
 }
 
 
-.yellowcolor {
+.bg-accent {
     background-color: var(--accent);
 }
 
-.btn {
-    background-color: var(--accent);
-}
 
-.btn:hover {
+.hover\:bg-accent-hover:hover {
     background-color: var(--accent-hover);
 }
 
@@ -30,9 +27,17 @@ body {
     background-color: var(--primary);
 }
 
+.text-primary {
+    color: var(--primary);
+}
+
 .nav-item:hover {
     color      : var(--accent);
     font-weight: 900;
+}
+
+.hover\:text-primary:hover {
+    color: var(--primary);
 }
 
 .active {
