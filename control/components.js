@@ -37,7 +37,7 @@ let navbarheader = `
 
 
 let announcementPage = `
- <div class="announcementsPageDesign h-[70vh]">
+  <div class="announcementsPageDesign h-[70vh]">
             <div
                 class="sideBar h-screen lg:w-1/3 bg-gray-200 fixed right-0 overflow-y-auto overflow-x-hidden rounded-2xl mt-2">
                 <div
@@ -46,17 +46,33 @@ let announcementPage = `
                     index
                 </div>
                 <div class="blogLinks divide-y-2 divide-gray-500 flex flex-col justify-around py-10">
-                    <a href="#" class="block hover:text-primary text-xl p-5">First Blog</a>
-                    <a href="#" class="block hover:text-primary text-xl p-5">First Blog</a>
-                    <a href="#" class="block hover:text-primary text-xl p-5">First Blog</a>
+
                 </div>
                 <hr>
             </div>
             <a href="#"
-                class="createNewAnnouncement relative top-2 left-2 inline-flex items-center space-x-4 bg-primary hover:bg-primary transition-all duration-100 rounded-l-2xl rounded-r-md"><i
+                class="openAnnouncementModalBox relative top-2 left-2 inline-flex items-center space-x-4 bg-primary hover:bg-primary transition-all duration-100 rounded-l-2xl rounded-r-md "><i
                     class="fas fa-plus fa-4x text-accent"></i>
                 <div class="text-2xl text-accent px-3">Create Announcement</div>
             </a>
+            <!-- Create Announcement Modal Box Start. -->
+            <div
+                class="createAnnouncementModalBox bg-gray-400 lg:w-1/2 w-11/12 hidden top-20 z-20 left-1/2 -translate-x-1/2 p-2 py-4 h-[450px] shadow-[0_35px_100px_-15px_rgba(0,0,0,0.5)] rounded-md">
+                <a href="#" class="closeModal text-4xl absolute top-1 right-2">&times;</a>
+                <h3 class="text-2xl text-center select-none">Create Announcement.</h3>
+                <input
+                    class="title w-full focus:ring-8 transition-all duration-100 py-2 rounded-lg mt-5 focus:placeholder-transparent placeholder-gray-600 text-lg px-5 inputField"
+                    type="text" placeholder="Enter announcement header.">
+
+                <textarea name="CreateAnnouncement" id="announcementText"
+                    class="inputField content w-full rounded-lg focus:ring-8 transition-all duration-300 h-3/5 resize-none my-4 p-4 focus:placeholder-transparent placeholder-gray-600 text-lg"
+                    placeholder="Write your announcement here."></textarea>
+                <button
+                    class="btn createPostButton block w-full px-4 py-2 rounded-lg transition-all duration-100 bg-accent hover:bg-accent-hover text-lg focus:ring-4 focus:ring-yellow-500">Post
+                    Announcement</button>
+                <!-- Create Announcement Modal Box End. -->
+            </div>
+
             <main class="h-full overflow-y-scroll lg:w-2/3 p-3 mt-20 no-scrollbar">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque consectetur ad, sed porro, nesciunt
                 rerum animi dolor fugit laborum placeat magnam repellat ullam labore dolorum tempore voluptatem quo
@@ -103,7 +119,7 @@ let announcementPage = `
 `;
 
 
-let homePage = ` <div class="Homebg h-screen bg-fixed relative">
+let homePage = `  <div class="Homebg h-screen bg-fixed relative">
             <div class="textContent w-1/2 flex flex-col items-center justify-center h-[60vh]">
                 <h2 class="text-4xl text-white heading font-semibold">City College Warburton</h2>
                 <h3 class="text-2xl text-white heading">(We Generate Knowledge)</h3>
@@ -124,5 +140,7 @@ let homePage = ` <div class="Homebg h-screen bg-fixed relative">
                     Result</button>
             </div>
         </div>`;
+
+
 let aboutPage = `<div>About Screen</div>`;
 let servicePage = `<div>Service Screen</div>`
