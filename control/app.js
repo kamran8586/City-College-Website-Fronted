@@ -18,26 +18,7 @@ navItems.forEach((button, index) => {
 });
 announcement.addEventListener('click', () => {
     initializationAnnouncementDOM();
-    openAnnouncementModalBox.addEventListener('click', () => {
-        createAnnouncementModalBox.classList.remove('hidden');
-        createAnnouncementModalBox.classList.add('absolute');
-    });
-    inputFields.forEach(input => {
-        input.value = '';
-    });
-    createPostButton.addEventListener('click', () => {
-        let blogData = {
-            title: blogTitle.value,
-            content: blogContent.value
-        }
-        blogLocalStorageData.setItem(blogData.title, blogData.content);
-        console.log(blogData.title);
-        console.log(blogData.content);
-        createAnnouncementModalBox.classList.add('hidden');
-    });
-    closeModal.addEventListener('click', () => {
-        createAnnouncementModalBox.classList.add('hidden');
-    });
+    allClickEventsFromAnnouncement();
 });
 
 openButton.addEventListener('click', () => {
@@ -72,7 +53,27 @@ function initializationAnnouncementDOM() {
     blogContent = document.querySelector('.content');
 }
 
-
-
+function allClickEventsFromAnnouncement() {
+    openAnnouncementModalBox.addEventListener('click', () => {
+        createAnnouncementModalBox.classList.remove('hidden');
+        createAnnouncementModalBox.classList.add('absolute');
+    });
+    inputFields.forEach(input => {
+        input.value = '';
+    });
+    createPostButton.addEventListener('click', () => {
+        let blogData = {
+            title: blogTitle.value,
+            content: blogContent.value
+        }
+        blogLocalStorageData.setItem(blogData.title, blogData.content);
+        console.log(blogData.title);
+        console.log(blogData.content);
+        createAnnouncementModalBox.classList.add('hidden');
+    });
+    closeModal.addEventListener('click', () => {
+        createAnnouncementModalBox.classList.add('hidden');
+    });
+}
 const closeNavbarButtonDesign = `&times;`;
 const openNavbarButtonDesign = `&#9776;`;
