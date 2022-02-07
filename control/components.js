@@ -143,7 +143,7 @@ let homePage = `  <div class="Homebg h-screen bg-fixed relative">
 
 
 let aboutPage = `
-<div class="aboutUs h-screen flex items-center justify-center">
+     <div class="aboutUs h-screen flex items-center justify-center">
             <div class="aboutUsAllContent flex items-center justify-center flex-col -mt-6">
                 <div class="logo flex justify-center items-center">
                     <img src="images/aboutmeLogo.jpg" alt="Sir Shuban"
