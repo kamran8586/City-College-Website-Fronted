@@ -142,5 +142,38 @@ let homePage = `  <div class="Homebg h-screen bg-fixed relative">
         </div>`;
 
 
-let aboutPage = `<div>About Screen</div>`;
+let aboutPage = `
+<div class="aboutUs h-screen flex items-center justify-center">
+            <div class="aboutUsAllContent flex items-center justify-center flex-col -mt-6">
+                <div class="logo flex justify-center items-center">
+                    <img src="images/aboutmeLogo.jpg" alt="Sir Shuban"
+                        class="w-20 rounded-full border-4 border-blue-700">
+                </div>
+                <div class="aboutMeTextHeading my-4 text-4xl font-black italic">
+                    About me
+                </div>
+                <div class="aboutMeTextParagraph text-lg font-extralight text-center w-1/2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perspiciatis id voluptate laboriosam
+                    incidunt molestiae veritatis, illum odio minima laborum.
+                </div>
+                <div class="socialMediaLogos w-10/12 flex justify-center space-x-2">
+                    <div class="facebook">
+                        <a href="#" class="text-yellow-500 text-2xl font-bold">
+                            <i class="fab fa-facebook-f fa-facebook-square"></i>
+                        </a>
+                    </div>
+                    <div class="twitter">
+                        <a href="#" class="text-yellow-500 text-2xl font-bold">
+                            <i class="fab fa-twitter fa-twitter-square"></i>
+                        </a>
+                    </div>
+                    <div class="instagram">
+                        <a href="#" class="text-yellow-500 text-2xl font-bold">
+                            <i class="fab fa-instagram fa-instagram-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+`;
 let servicePage = `<div>Service Screen</div>`
