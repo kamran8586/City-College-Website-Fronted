@@ -71,6 +71,11 @@ body {
     background: var(--accent);
 }
 
+.selectionAccent::selection {
+    color     : var(--secondary);
+    background: var(--accent);
+}
+
 @media (max-width: 1024px) {
     .navbar-items-responsive {
         /* background-color: rgb(0, 0, 0); */

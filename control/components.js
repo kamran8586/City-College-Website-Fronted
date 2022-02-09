@@ -39,7 +39,7 @@ let navbarheader = `
 let announcementPage = `
   <div class="announcementsPageDesign h-[70vh]">
             <div
-                class="sideBar h-screen lg:w-1/3 bg-gray-200 fixed right-0 overflow-y-auto overflow-x-hidden rounded-2xl mt-2">
+                class="sideBar h-screen lg:w-1/3 bg-gray-200 fixed right-0 overflow-x-hidden rounded-2xl mt-2">
                 <div
                     class="blogLinkHeading text-3xl text-center font-semibold text-gray-800 select-none border-b-2 border-blue-700 pb-5">
                     Announcement
@@ -73,7 +73,7 @@ let announcementPage = `
                 <!-- Create Announcement Modal Box End. -->
             </div>
 
-            <main class="h-full overflow-y-scroll lg:w-2/3 p-3 mt-20 no-scrollbar">
+            <main class=" lg:w-2/3 p-3 mt-20">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque consectetur ad, sed porro, nesciunt
                 rerum animi dolor fugit laborum placeat magnam repellat ullam labore dolorum tempore voluptatem quo
                 harum corrupti at minima. Aliquid magni mollitia cupiditate consectetur, quis praesentium doloremque

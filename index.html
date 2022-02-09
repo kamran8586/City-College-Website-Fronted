@@ -11,7 +11,7 @@
     <title>City College</title>
 </head>
 
-<body>
+<body class="relative">
     <!-- City College Header Start. -->
     <nav class="navbar lg:flex justify-between sticky top-0 lg:h-auto h-28 cursor-default z-10">
         <a href="#" class="brandLogo mx-4 navbar-brand block overflow-hidden w-20 h-24">
@@ -45,7 +45,7 @@
     </nav>
 
     <div class="allContent">
-        <div class="Homebg h-screen bg-fixed relative">
+        <div class="Homebg h-screen relative">
             <div class="textContent w-1/2 flex flex-col items-center justify-center h-[60vh]">
                 <h2 class="text-4xl text-white heading font-semibold">City College Warburton</h2>
                 <h3 class="text-2xl text-white heading">(We Generate Knowledge)</h3>
@@ -68,11 +68,35 @@
         </div>
     </div>
 
-
+    <!-- City College Footer -->
+    <footer
+        class="footer bg-primary text-center text-white h-28 flex flex-col justify-center w-full rounded-lg fixed bottom-0 right-0">
+        <div class="socialMediaLogos flex justify-center space-x-2">
+            <div class="facebook">
+                <a href="#" class="text-yellow-500 text-2xl font-bold">
+                    <i class="fab fa-facebook-f fa-facebook-square"></i>
+                </a>
+            </div>
+            <div class="twitter">
+                <a href="#" class="text-yellow-500 text-2xl font-bold">
+                    <i class="fab fa-twitter fa-twitter-square"></i>
+                </a>
+            </div>
+            <div class="instagram">
+                <a href="#" class="text-yellow-500 text-2xl font-bold">
+                    <i class="fab fa-instagram fa-instagram-square"></i>
+                </a>
+            </div>
+        </div>
+        <div class="companyFooter relative bottom-0">
+            <div class="contactUs text-2xl font-bold select-none ">Contact Us</div>
+            <p class="selectionAccent">&copy; Copyright 2020 - 2022, City Education Compass.</p>
+        </div>
+        <!-- City College Footer End -->
+    </footer>
     <script src="control/localStorage.js"></script>
     <script src="control/components.js"></script>
     <script src="control/app.js"></script>
-
 </body>
 
 
